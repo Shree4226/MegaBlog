@@ -13,7 +13,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
     control={control}
     render={({field: {onChange}}) => (
         <Editor
-         apiKey="hs3r3jrnmh043dzuxwknn96my8ky1d2hh3xhkbi9rth8l20r"
+         apiKey ={conf.appwriteTinyDocs} 
         initialValue={defaultValue}
         init={{
             initialValue: defaultValue,
